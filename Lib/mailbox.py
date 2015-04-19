@@ -25,7 +25,7 @@ except ImportError:
 
 __all__ = [ 'Mailbox', 'Maildir', 'mbox', 'MH', 'Babyl', 'MMDF',
             'Message', 'MaildirMessage', 'mboxMessage', 'MHMessage',
-            'BabylMessage', 'MMDFMessage']
+            'BabylMessage', 'MMDFMessage', 'Error', 'ExternalClashError', 'NoSuchMailboxError', 'NotEmptyError' ]
 
 linesep = os.linesep.encode('ascii')
 
